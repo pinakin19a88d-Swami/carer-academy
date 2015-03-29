@@ -30,10 +30,12 @@ h1{
 
 h2{
   font-size: 20px;
+  font-family: "Exo 2";
 }
 
 h3{
   font-size: 16px;
+  font-family: "Exo 2";
   color: #787878;
   font-weight: 400;
   line-height: 24px;
@@ -510,6 +512,9 @@ input.search-form:hover {
   -o-animation: fadeInUp 300ms linear 300ms both;
   -ms-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
+
+  font-family: "Exo 2";
+  text-shadow: 1px 1px 4px #000;
 }
 
 #main-slider .active .animation.animated-item-2 {
@@ -518,6 +523,8 @@ input.search-form:hover {
   -o-animation: fadeInUp 300ms linear 600ms both;
   -ms-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
+
+  text-shadow: 1px 1px 4px #000;
 }
 
 #main-slider .active .animation.animated-item-3 {
@@ -551,7 +558,7 @@ input.search-form:hover {
 }
 
 .feature-wrap h2{
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .feature-wrap .pull-left {
@@ -976,6 +983,7 @@ a.accordion-toggle  i{
   display: inline-block;
   float: left;
   width: 20%;
+  padding: 10px;
 }
 
 #conatcat-info{
