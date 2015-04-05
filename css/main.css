@@ -983,10 +983,16 @@ a.accordion-toggle  i{
 }
 
 .partners ul li{
-  display: inline-block;
+  /*display: inline-block;*/
+  display: table;
   float: left;
   width: 20%;
   padding: 10px;
+}
+.partners ul li a {
+  height: 95px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #conatcat-info{
