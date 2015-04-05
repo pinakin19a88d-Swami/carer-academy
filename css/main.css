@@ -1911,20 +1911,24 @@ ul.social_icons li  a i{
 }
 
 .gmap-area .gmap iframe {
-  border-radius: 50%;
+  border-radius: 15%;
   height: 280px;
   width: 300px;
 }
 
 .gmap{
     border: 10px solid #f6f5f0;
-    border-radius: 50%;
+    border-radius: 15%;
     height: 300px;
     width: 300px;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
+}
+
+.gmap-area .map-content {
+  margin-top: 20px;
 }
 
 .gmap-area .map-content ul {
