@@ -2557,3 +2557,25 @@ shortcodes page css
 .carousel-inner {
   height: 500px;
 }
+.tipsWrap h2 {
+  font-size:  24px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+ .tipsWrap ul {
+  list-style: none;
+}
+.tipsWrap li {
+  position: relative;
+  margin-bottom: 5px;
+}
+.tipsWrap li:before{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 7px;
+  border-radius: 100%;
+  left: -18px;
+  background: #0069b6;
+}
