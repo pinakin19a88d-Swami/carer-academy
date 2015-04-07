@@ -46,7 +46,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #444;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #d43133;
+  color: #f60;
 }
 
 hr {
@@ -92,7 +92,7 @@ hr {
 
 a:hover,
 a:focus {
-  color: #111;
+  color: #f60;
   text-decoration: none;
   outline: none;
 }
@@ -1008,10 +1008,10 @@ a.accordion-toggle  i{
 .contact-info i{
   width: 60px;
   height: 60px;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 60px;
-  color: #fff;
-  background: #0069b6;
+  color: #0069b6;
+  background: #fff;
   text-align: center;
   border-radius: 10px;
 }
@@ -1977,6 +1977,9 @@ textarea#message{
   margin-top: 20px;
 }
 
+.email-id {
+  color: #014b8a;
+}
 /*********************
 ****blog page css*****
 **********************/
@@ -2533,6 +2536,7 @@ shortcodes page css
   padding-bottom: 30px;
   color: #fff;
   background: #014b8a;
+  border-top: 5px solid #01325c;
 }
 
 #footer a {
@@ -2540,7 +2544,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-  color: #c52d2f;
+  color: #fc0;
 }
 
 #footer ul {
@@ -2552,6 +2556,10 @@ shortcodes page css
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+.footer-fb {
+  font-size: 30px;
 }
 /*customise carousel*/ 
 .carousel-inner {
