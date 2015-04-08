@@ -116,7 +116,8 @@ a:focus {
   margin-left: 20px;
 }
 
-body > section {
+body > section,
+.login-section {
   padding: 70px 0;
 }
 
@@ -819,7 +820,7 @@ input.search-form:hover {
 
 .panel-default>.panel-heading,
 .panel{
-  background-color: #e6e6e6; 
+  background-color: #e1e1e1; 
   border:0 none;
   box-shadow:none;
 }
@@ -1026,6 +1027,7 @@ a.accordion-toggle  i{
 #conatcat-info{
   background: #fff url(../images/contact.png) no-repeat 80% 0;
   padding: 30px 0;
+  border-bottom: 5px solid #aaa;
 }
 
 .contact-info i{
@@ -2609,4 +2611,13 @@ shortcodes page css
   border-radius: 100%;
   left: -18px;
   background: #0069b6;
+}
+
+/***********************
+********* Homepage ******
+************************/
+
+i.fa-pencil-square,
+i.fa-clock-o {
+  font-size: 50px;
 }
