@@ -2617,7 +2617,17 @@ shortcodes page css
 ********* Homepage ******
 ************************/
 
+#news-section {
+  background: #222;
+}
+
 i.fa-pencil-square,
 i.fa-clock-o {
   font-size: 50px;
+  color: #ddd;
+}
+
+a.news-item,
+p.news-item {
+  color: #ddd;
 }
