@@ -28,6 +28,14 @@
 </head><!--/head-->
 
 <body class="homepage">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <header id="header">
 
@@ -40,16 +48,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="115px" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="javascript:void(0);">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="useful-tips.html">Useful Tips</a></li>
-                        <li><a href="student-login.html">Student Login</a></li>
+                        <li class="active"><a href="javascript:void(0);">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="results.html">RESULTS</a></li>
+                        <li><a href="useful-tips.html">USEFUL TIPS</a></li>
+                        <li><a href="student-login.html">LOGIN</a></li>
                         <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -60,7 +68,7 @@
                             </ul>
                         </li>
                         <li><a href="blog.html">Blog</a></li> -->
-                        <li><a href="contact-us.html">Contact Us</a></li>                        
+                        <li><a href="contact-us.html">CONTACT US</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -83,7 +91,7 @@
                             <div class="col-sm-6">
 
                                 <div class="slider-img-small">
-                                    <ul>
+                                    <ul class="carousel-content">
                                         <li><img src="images/slider/img1a.jpg" class="img-responsive wow fadeInDown"></li>
                                         <li><img src="images/slider/img1b.jpg" class="img-responsive wow fadeInDown"></li>
                                         <li><img src="images/slider/img1c.jpg" class="img-responsive wow fadeInDown"></li>
@@ -91,8 +99,8 @@
                                 </div>
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Borde's Career Academy</h1>
-                                    <h2 class="animation animated-item-2">We are proud to say that Borde's has become a synonym of success for preparation of IBPS Bank PO, Clerk, SSC, &amp; NDA exams. With a strong &amp; experienced pool of faculties, the institute is committed itself to provide quality education &amp; guideline for students.</h2>
-                                    <!-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> -->
+                                    <h2 class="animation animated-item-2">From years, BORDE'S CAREER ACADEMY is being known as a sole key of success and achievements for the preparation of IBPS Bank PO, Clerk, SSC &amp; UPSC exams.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="about-us.html">Know More</a>
                                 </div>
                             </div>
 
@@ -112,8 +120,8 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Why Borde's?</h1>
-                                    <h2 class="animation animated-item-2">At Borde's we believe in hard work not in just one's fate. All of us can have a good future if we work hard &amp; honestly in the present moment. Surely success depends on the time &amp; attention.</h2>
-                                    <!-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> -->
+                                    <h2 class="animation animated-item-2">As said before, BORDE'S continous striving efforts in helping hundreds of students prosper in their respective chosen fields makes them the most preferred coaching institute in field of IBPS Bank PO, Clerk, SSC &amp; UPSC exams.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="about-us.html">Know More</a>
                                 </div>
                             </div>
 
@@ -129,16 +137,30 @@
 
                 <div class="item" style="background-image: url(images/slider/bg3.jpg)">
                     <div class="container">
-                        <div class="row slide-margin">
-                            <!-- <div class="col-sm-6">
+                        <div class="row slide-margin slide-margin2">
+                            <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Demo Test</h1>
-                                    <h2 class="animation animated-item-2">To get an idea of how well we prepare our students, you can try this simple test on our affiliate website right away!</h2>
-                                    <a class="btn-slide animation animated-item-3" href="http://register.practiceguru.in/">Take the test</a>
+                                    <h1 class="animation animated-item-1">&quot;We help candidates prepare for&quot;</h1>
+                                    <!-- <h2 class="animation animated-item-2">To get an idea of how well we prepare our students, you can try this simple test on our affiliate website right away!</h2> -->
+                                    <div class="icon-wrap feature-wrap animation animated-item-2">
+                                        <i class="slide-fa-icons fa fa-university"></i>
+                                        <h2>IBPS BANK EXAM</h2>
+                                    </div>
+                                    <div class="icon-wrap feature-wrap animation animated-item-2">
+                                        <i class="slide-fa-icons fa fa-slideshare"></i>
+                                        <h2>STAFF SELECTION COMMISSION</h2>
+                                    </div>
+                                    <div class="icon-wrap feature-wrap animation animated-item-2">
+                                        <i class="slide-fa-icons fa fa-book"></i>
+                                        <h2>UPSC</h2>
+                                    </div>
+                                    <div class="wow fadeInDown">
+                                        <p class="lead">AND MANY MORE TESTS...</p>
+                                    </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="col-sm-12 animation animated-item-4">
-                                <div class="slider-img">
+                                <div class="slider-img last-slide">
                                     <img src="images/slider/img3.png" class="img-responsive">
                                 </div>
                             </div>
@@ -158,7 +180,19 @@
     <section id="conatcat-info">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+
+                <div class="col-sm-4">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-envelope-square"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2><a href="contact-us.html">Contact Us</a></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
                     <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="pull-left">
                             <i class="fa fa-facebook-square"></i>
@@ -172,76 +206,45 @@
         </div><!--/.container-->    
     </section><!--/#conatcat-info-->
 
-    <section id="news-section">
+    <section id="fb-posts">
         <div class="container">
-           <div class="center wow fadeInDown">
-                <h2>Upcoming Exams &amp; Batches</h2>
-                <p class="lead"></p>
-            </div>
+            <div class="row">
 
-            <div class="row clearfix">
-                    <div class="col-md-4 col-md-offset-1"> 
-                        <div class="single-profile-top wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; -webkit-animation-duration: 1000ms; -webkit-animation-delay: 300ms;">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <i class="fa fa-pencil-square"></i>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Exam Dates</h4>
-                                    <h5></h5>
-                                    <ul class="tag clearfix">
-                                        <li class="btn"><a href="javascript:void(0);" class="news-item">IBPS - 10:00am to 1:00pm</a></li>
-                                        <li class="btn"><a href="javascript:void(0);" class="news-item">UPSC - 3:00pm to 6:00pm</a></li>
-                                        <!-- <li class="btn"><a href="#">Ux</a></li>
-                                        <li class="btn"><a href="#">Photoshop</a></li> -->
-                                    </ul>
-                                    
-                                    <!-- <ul class="social_icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul> -->
-                                </div>
-                            </div><!--/.media -->
-                            <p class="news-item">Note:- Candidates are requested to arrive at least 15 minutes before the exam commences.</p>
-                        </div>
-                    </div><!--/.col-lg-4 -->
-                    
-                    
-                    <div class="col-md-4 col-md-offset-1"> 
-                        <div class="single-profile-top wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; -webkit-animation-duration: 1000ms; -webkit-animation-delay: 300ms;">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <i class="fa fa-clock-o"></i>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Batch Timings</h4>
-                                    <h5></h5>
-                                    <ul class="tag clearfix">
-                                        <li class="btn"><a href="javascript:void(0);" class="news-item">IBPS - 8:00am to 10:00am</a></li>
-                                        <li class="btn"><a href="javascript:void(0);" class="news-item">UPSC - 10:00am to 12:00pm</a></li>
-                                        <!-- <li class="btn"><a href="#">Ux</a></li>
-                                        <li class="btn"><a href="#">Photoshop</a></li> -->
-                                    </ul>
-                                    <!-- <ul class="social_icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul> -->
-                                </div>
-                            </div><!--/.media -->
-                            <p class="news-item">Note:- Students are requested to arrive at least 15 minutes before the batch starts.</p>
-                        </div>
-                    </div><!--/.col-lg-4 -->                    
+                <div class="col-sm-4 tipsWrap">
+                    <h2>Useful Tips</h2>
+                    <h4>Tips on Preparing for the D-Day</h4>
+                    <ul>
+                        <li>Gather information about the bank or organization that has invited you for the interview. This will give you a clear idea about the philosophy, work environment and reputation of the company.</li>
+                        <li>Read the job description carefully as to what they expect from you. Evaluate your qualifications, experience, and core competences, areas of strength and ...</li>
+                    </ul>
+                    <a class="btn btn-link" href="useful-tips.html" role="button">Read More</a>
                 </div>
 
-        </div><!--/.container-->
-    </section><!--/#feature-->
+                <div class="col-sm-4 tipsWrap">
+                    <h2>G.D. And P.I. Tips</h2>
+                    <ul>
+                        <li>Try to initiate the discussion which will help you to get edge over the others, however if you are not sure about the topic please do not initiate just for the sake of initiating. If you are not comfortable with the topic then it would be better for you to listen to the views of others for a few minutes and thereafter you can come up with your views on the topic. You should also try to conclude the discussion as it would also help you to create a good impression over the evaluators and ...</li>
+                    </ul>
+                    <a class="btn btn-link" href="useful-tips.html" role="button">Read More</a>
+                </div>
 
-    <section id="feature">
+                <div class="col-sm-4 fb-posts">
+                    <div class="fb-page" data-href="https://www.facebook.com/bordescareeracademyeducation" data-width="500" data-height="400" data-hide-cover="false" data-show-facepile="false" data-show-posts="true">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/bordescareeracademyeducation">
+                                <a href="https://www.facebook.com/bordescareeracademyeducation">Borde&#039;s Career Academy Facebook Page</a>
+                            </blockquote>
+                        </div>
+                    </div><!-- fb-page -->
+                </div>
+            </div>
+        </div><!--/.container-->    
+    </section><!--/#fb-posts-->
+
+    <section id="feature" class="home-feature">
         <div class="container">
            <div class="center wow fadeInDown">
-                <h2>&quot;We help candidates prepare for&quot;</h2>
+                <h2>OUR FEATURES</h2>
                 <p class="lead"></p>
             </div>
 
@@ -249,16 +252,8 @@
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-university"></i>
-                            <h2>IBPS Bank Exam</h2>
-                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-slideshare"></i>
-                            <h2>Staff Selection Commission</h2>
+                            <i class="fa fa-laptop"></i>
+                            <h2>ONLINE TESTS</h2>
                             <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
                         </div>
                     </div><!--/.col-md-4-->
@@ -266,15 +261,50 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-book"></i>
-                            <h2>UPSC</h2>
+                            <h2>FREE STUDY MATERIALS</h2>
                             <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
                         </div>
                     </div><!--/.col-md-4-->
-                    <div class="container">
-                       <div class="center wow fadeInDown">
-                            <p class="lead">and many more tests....</p>
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-certificate"></i>
+                            <h2>REGULAR TESTS &amp; QUIZES</h2>
+                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
                         </div>
-                    </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-group"></i>
+                            <h2>GROUP DISCUSSIONS</h2>
+                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-slideshare"></i>
+                            <h2>MORAL COUNSELING</h2>
+                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-institution"></i>
+                            <h2>BEST LEARNING ENVIRONMENT</h2>
+                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-star"></i>
+                            <h2>WELL TRAINED &amp; EXPERIENCES FACULTIES</h2>
+                            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> -->
+                        </div>
+                    </div><!--/.col-md-4-->
                 </div><!--/.services-->
             </div><!--/.row-->    
         </div><!--/.container-->
@@ -289,6 +319,8 @@
 
             <div class="partners">
                 <ul>
+                    <li> <a href="https://www.sbi.co.in/" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="200ms" src="images/bank_images/state-bank-of-india.jpg"></a></li>
+
                     <li> <a href="http://www.allahabadbank.in" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="200ms" src="images/bank_images/allahabad-bank.jpg"></a></li>
                     <li> <a href="http://www.andhrabank.in" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms" src="images/bank_images/andhra-bank.jpg"></a></li>
                     <li> <a href="http://www.bankofbaroda.com" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms" src="images/bank_images/bank-of-baroda.jpg"></a></li>
