@@ -182,8 +182,8 @@ body > section,
 }
 
 .navbar>.container .navbar-brand{
-  margin: 23px 0;
-  width: 250px;
+  margin: 22px 0 0 0;
+  width: 280px;
 }
 
 .navbar>.container .navbar-brand img {
@@ -288,7 +288,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 45px 22px;
+  padding: 45px 18px;
   margin: 0;
   /*border-radius: 3px;*/
   color: #0069b6;
@@ -398,6 +398,7 @@ input.search-form:hover {
 
 #main-slider .carousel h2 {
   color: #fff;
+  font-weight: inherit;
 }
 
 #main-slider .carousel .btn-slide {
@@ -637,12 +638,12 @@ input.search-form:hover {
 }
 
 .feature-wrap i{
-  font-size: 48px;
-  height: 110px;
-  width: 110px;
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
   margin: 3px;
   border-radius: 100%;
-  line-height: 110px;
+  line-height: 75px;
   text-align:center;
   background: #ffffff;
   color: #0069b6;
@@ -655,6 +656,10 @@ input.search-form:hover {
   transition: 500ms;
   float: left;
   margin-right: 25px;
+}
+.feature-wrap .feature-text {
+  font-size: 16px;
+  margin-top: 20px;
 }
 .icon-wrap {
   margin-bottom: 5px!important;
@@ -2719,4 +2724,8 @@ i.fa-clock-o {
 a.news-item,
 p.news-item {
   color: #ddd;
+}
+
+.results-section .tipsWrap ul {
+  /*float: left;*/
 }
