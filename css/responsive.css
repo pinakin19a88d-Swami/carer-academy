@@ -201,6 +201,17 @@
 
   .navbar-nav > li {
     padding-bottom: 0;
+    height: 40px;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 5px 10px;
+    width: 97.5%;
+  }
+
+  .navbar>.container .navbar-brand{
+    width: 250px;
+    margin: 10px 0;
   }
 
   #main-slider .carousel h1 {
